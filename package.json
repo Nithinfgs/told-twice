@@ -1,0 +1,58 @@
+{
+  "name": "told-twice",
+  "version": "0.1.0",
+  "description": "Finds the instructions you keep repeating to your coding agent, and checks whether your CLAUDE.md / AGENTS.md already says them. Local, offline, no API keys.",
+  "type": "module",
+  "bin": {
+    "told-twice": "bin/told.js",
+    "told": "bin/told.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "docs/assets/demo.svg",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "typecheck": "tsc -p jsconfig.json",
+    "demo": "node bin/told.js demo",
+    "gen-examples": "node scripts/gen-examples.mjs",
+    "render-demo": "node scripts/render-demo.mjs",
+    "check": "npm run typecheck && npm test"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "agents-md",
+    "claude-md",
+    "coding-agents",
+    "cli",
+    "developer-tools",
+    "transcripts",
+    "local-first"
+  ],
+  "author": "Nithinfgs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithinfgs/told-twice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nithinfgs/told-twice/issues"
+  },
+  "homepage": "https://github.com/Nithinfgs/told-twice#readme",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
