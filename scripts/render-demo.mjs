@@ -35,7 +35,7 @@ function spans(line) {
   return out;
 }
 
-const cmd = '<tspan fill="#7ee787">$</tspan> <tspan fill="#e6edf3">npx told-twice demo</tspan>';
+const cmd = '<tspan fill="#7ee787">$</tspan> <tspan fill="#e6edf3">npx github:Nithinfgs/told-twice demo</tspan>';
 const lh = 20;
 const top = 56;
 const width = 940;

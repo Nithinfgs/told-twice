@@ -11,8 +11,8 @@
 <p align="center"><img src="docs/assets/demo.svg" alt="told-twice demo: repeated instructions ranked and marked MISSING or IGNORED" width="880"></p>
 
 ```bash
-npx told-twice demo     # see it on bundled sample data, nothing of yours is read
-npx told-twice          # scan your own Claude Code + Codex history
+npx github:Nithinfgs/told-twice demo     # see it on bundled sample data, nothing of yours is read
+npx github:Nithinfgs/told-twice          # scan your own Claude Code + Codex history
 ```
 
 ## In 20 seconds
@@ -37,14 +37,14 @@ Instruction files are written once from memory, then drift. The real record of w
 Requires Node 18.17+.
 
 ```bash
-npx told-twice                         # last 60 days, Claude Code + Codex
-npx told-twice --since all             # everything
-npx told-twice --project my-api        # one project
-npx told-twice rules                   # paste-ready block of the missing rules
-npx told-twice rules --write AGENTS.md # insert it between told-twice markers
+npx github:Nithinfgs/told-twice                         # last 60 days, Claude Code + Codex
+npx github:Nithinfgs/told-twice --since all             # everything
+npx github:Nithinfgs/told-twice --project my-api        # one project
+npx github:Nithinfgs/told-twice rules                   # paste-ready block of the missing rules
+npx github:Nithinfgs/told-twice rules --write AGENTS.md # insert it between told-twice markers
 ```
 
-Global install: `npm i -g told-twice`, then use `told`.
+Global install: `npm i -g github:Nithinfgs/told-twice`, then use `told`. (An npm release is planned; until then the GitHub install above is the supported path.)
 
 `rules --write` only touches the region between `<!-- told-twice:start -->` and `<!-- told-twice:end -->` and is safe to re-run. Review the result: suggested wording is one of your own messages lightly trimmed, not a rewrite.
 
@@ -123,7 +123,7 @@ Honest list, because this is heuristic software:
 - "IGNORED" means a line in an instruction file shares most keywords with the cluster; it can be wrong when the file talks about the topic without stating the rule.
 - Command-failure mining works for Claude Code only. Codex tool-output formats vary by version.
 - Transcript formats are not a public contract and may change. Parsers skip what they cannot read rather than failing.
-- Not tested on Windows yet. Paths use Node's `path` APIs, so it should work; reports welcome.
+- CI runs on Linux, macOS and Windows, but only against synthetic fixtures; real-world Windows transcript locations are untested. Reports welcome.
 
 ## Roadmap
 
