@@ -20,7 +20,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "node --test test/*.test.js",
+    "test": "node --test",
     "typecheck": "tsc -p jsconfig.json",
     "demo": "node bin/told.js demo",
     "gen-examples": "node scripts/gen-examples.mjs",
