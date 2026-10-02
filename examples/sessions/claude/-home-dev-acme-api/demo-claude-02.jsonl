@@ -1,0 +1,6 @@
+{"type":"user","sessionId":"demo-claude-02","cwd":"/home/dev/acme-api","timestamp":"2026-08-07T09:00:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Refactor the invoice service to use the new money type."}]}}
+{"type":"assistant","sessionId":"demo-claude-02","cwd":"/home/dev/acme-api","timestamp":"2026-08-07T09:01:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-02","cwd":"/home/dev/acme-api","timestamp":"2026-08-07T09:05:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Stop adding comments to every function, it's noisy."}]}}
+{"type":"assistant","sessionId":"demo-claude-02","cwd":"/home/dev/acme-api","timestamp":"2026-08-07T09:06:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-02","cwd":"/home/dev/acme-api","timestamp":"2026-08-07T09:10:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Don't use any in TypeScript, use unknown and narrow it."}]}}
+{"type":"assistant","sessionId":"demo-claude-02","cwd":"/home/dev/acme-api","timestamp":"2026-08-07T09:11:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}

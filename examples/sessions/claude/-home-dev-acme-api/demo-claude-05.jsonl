@@ -1,0 +1,6 @@
+{"type":"user","sessionId":"demo-claude-05","cwd":"/home/dev/acme-api","timestamp":"2026-08-19T09:00:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Add pagination to GET /customers."}]}}
+{"type":"assistant","sessionId":"demo-claude-05","cwd":"/home/dev/acme-api","timestamp":"2026-08-19T09:01:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-05","cwd":"/home/dev/acme-api","timestamp":"2026-08-19T09:05:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Never use the any type, use proper types or unknown."}]}}
+{"type":"assistant","sessionId":"demo-claude-05","cwd":"/home/dev/acme-api","timestamp":"2026-08-19T09:06:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-05","cwd":"/home/dev/acme-api","timestamp":"2026-08-19T09:10:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Please don't add explanatory comments to the code unless I ask."}]}}
+{"type":"assistant","sessionId":"demo-claude-05","cwd":"/home/dev/acme-api","timestamp":"2026-08-19T09:11:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}

@@ -1,0 +1,6 @@
+{"type":"user","sessionId":"demo-claude-04","cwd":"/home/dev/acme-api","timestamp":"2026-08-14T09:00:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Fix the flaky webhook retry test."}]}}
+{"type":"assistant","sessionId":"demo-claude-04","cwd":"/home/dev/acme-api","timestamp":"2026-08-14T09:01:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-04","cwd":"/home/dev/acme-api","timestamp":"2026-08-14T09:05:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Always run the tests before you say it's done."}]}}
+{"type":"assistant","sessionId":"demo-claude-04","cwd":"/home/dev/acme-api","timestamp":"2026-08-14T09:06:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-04","cwd":"/home/dev/acme-api","timestamp":"2026-08-14T09:10:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Use conventional commits for the commit message."}]}}
+{"type":"assistant","sessionId":"demo-claude-04","cwd":"/home/dev/acme-api","timestamp":"2026-08-14T09:11:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}

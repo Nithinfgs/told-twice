@@ -1,0 +1,4 @@
+{"type":"session_meta","timestamp":"2026-09-15T09:00:00.000Z","payload":{"id":"demo-codex-2","cwd":"/home/dev/acme-api"}}
+{"type":"response_item","timestamp":"2026-09-15T09:01:00.000Z","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Tighten the OpenAPI schema for orders."}]}}
+{"type":"response_item","timestamp":"2026-09-15T09:02:00.000Z","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Use pnpm instead of npm, please."}]}}
+{"type":"response_item","timestamp":"2026-09-15T09:03:00.000Z","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Don't add comments to every function."}]}}

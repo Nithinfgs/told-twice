@@ -1,0 +1,8 @@
+{"type":"user","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:00:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Add an audit log table."}]}}
+{"type":"assistant","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:01:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:05:00.000Z","message":{"role":"user","content":[{"type":"text","text":"Never modify old migrations, add a new migration instead."}]}}
+{"type":"assistant","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:06:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"user","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:10:00.000Z","message":{"role":"user","content":[{"type":"text","text":"No comments please. Remove the comments you added."}]}}
+{"type":"assistant","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:11:00.000Z","message":{"role":"assistant","content":[{"type":"text","text":"On it."}]}}
+{"type":"assistant","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:30:00.000Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"demo-claude-08-t0","name":"Bash","input":{"command":"npm run dev"}}]}}
+{"type":"user","sessionId":"demo-claude-08","cwd":"/home/dev/acme-api","timestamp":"2026-08-29T09:31:00.000Z","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"demo-claude-08-t0","is_error":true,"content":"npm ERR! Missing script: \"dev\""}]}}
