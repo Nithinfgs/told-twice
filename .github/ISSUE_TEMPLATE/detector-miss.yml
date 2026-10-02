@@ -1,0 +1,21 @@
+name: Detector miss or false positive
+description: An instruction was missed, or something reported wasn't one
+labels: [detector]
+body:
+  - type: textarea
+    id: sentence
+    attributes:
+      label: The sentence (anonymised)
+      description: Remove names, paths and secrets.
+    validations: {required: true}
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened
+      options: ["Missed (should have been detected)", "False positive (reported but isn't an instruction)", "Wrong MISSING/IGNORED status"]
+    validations: {required: true}
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and version
+      placeholder: Claude Code 2.x / Codex 0.x

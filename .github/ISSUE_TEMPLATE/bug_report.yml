@@ -1,0 +1,12 @@
+name: Bug report
+description: Something crashed or behaved wrongly
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What happened, description: "Include the command and the error. Do not paste transcript contents."}
+    validations: {required: true}
+  - type: input
+    id: env
+    attributes: {label: "Environment", placeholder: "OS, Node version, told --version"}
+    validations: {required: true}
